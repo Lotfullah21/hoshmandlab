@@ -1,0 +1,35 @@
+h3 {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  background-color: black;
+  color: rgb(247, 247, 247);
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+figcaption {
+  text-align: center;
+}
+
+img {
+  align-items: center;
+  align-content: last baseline;
+  width: 800px;
+}
+
+footer {
+  text-align: center;
+}
+
+nav {
+  background-color: rgb(239, 245, 245);
+  padding: 4px;
+  padding: 4px;
+}
