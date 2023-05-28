@@ -10,118 +10,130 @@
 
   <body>
     <!-- Here is our main header that is used across all the pages of our website -->
-
     <header>
-      <h1>HoshmandLab</h1>
+      <a href="../index.html" id="link">HoshmandLab</a>
     </header>
-
     <nav>
-      <!-- A Search form is another common non-linear way to navigate through a website. -->
-      <nav>
-        <ul>
-          <a href="home.html">home</a>
-          <a href="about.html">about</a>
-          <a href="courses.html">courses</a>
-          <a href="contacts.html">contacts</a>
-        </ul>
-      </nav>
+      <ul>
+        <a id="page" href="home.html">home</a>
+        <a id="page" href="about.html">about</a>
+        <a id="page" href="courses.html">courses</a>
+        <a id="page" href="contacts.html">contacts</a>
+      </ul>
+    </nav>
+    <!-- <nav>
       <form>
         <input type="search" name="q" placeholder="Search query" />
         <input type="submit" value="Go!" />
       </form>
-    </nav>
+    </nav> -->
 
     <!-- Here is our page's main content -->
     <main>
       <!-- It contains an article -->
       <article>
-        <h2>Artificial Intelligence</h2>
+        <section>
+          <h2>Artificial Intelligence</h2>
 
-        <p>
-          it all started with the vision of john von neuman American Scientist,
-          where he envisioned about intelligence, then it came to Frank
-          Rosenblat to take his chance, but due to lack of computation could not
-          do much, but by getting better in computation part, visionary Hinton
-          started to work on the topic,from 1980s, he had his own company of
-          GPUs,the current wave of AI started basically from Canada by Hinton
-          and Yoshua Bengion, lets not forget MIT Scientists.
-        </p>
-        <p>
-          There are few important subfields of AI which will be mentioned
-          bellow.
-        </p>
+          <p>
+            it all started with the vision of john von neuman American
+            Scientist, where he envisioned about intelligence, then it came to
+            Frank Rosenblat to take his chance, but due to lack of computation
+            could not do much, but by getting better in computation part,
+            visionary Hinton started to work on the topic,from 1980s, he had his
+            own company of GPUs,the current wave of AI started basically from
+            Canada by Hinton and Yoshua Bengion, lets not forget MIT Scientists.
+          </p>
+          <figure>
+            <img id="subject" src="../assests/images/ai/ai.jpg" />
+            <figcaption>a simple generated image</figcaption>
+          </figure>
+        </section>
 
-        <h3>Machine Learning</h3>
+        <section>
+          <h3>Machine Learning</h3>
+          <p>
+            Machine learning which statisticians are calling it statistical
+            learning, we are not entering their battle. Machine learning is
+            tries to find pattern in the data and use that as a learning
+            mechanism to solve later similar task, it does this without being
+            directly programmed to do so,in tradational computer science, in
+            order to do something, we tell computer exactly what to do, but here
+            the case is otherwise,<em>How it learns</em>? we define a learning
+            algorithm which based on that it can learn from the mistakes it
+            makes during learning process, with every mismatch between our
+            answers and what the machine predicts there will be a punishment,
+            based on that punishment the machine learns that it made a big
+            mistake, and next time it tries to improve by making adjustment to
+            they attributes or parameters which had effect on the previous
+            prediction.
+          </p>
+          <figure>
+            <img id="subject" src="../assests/images/ai/machine.jpg" />
+            <figcaption>a computer and stock data.</figcaption>
+          </figure>
+        </section>
 
-        <p>
-          Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum
-          dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem.
-          Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.
-        </p>
+        <section>
+          <h3>Deep Learning</h3>
+          <p>
+            keep statistical learning aside, why do not mimic the brain?
+            Okay,this is what we are doing here.we use from tiny tiny
+            computation units which are called <b>Neurons</b>, Neurons are the
+            main computation power in human brains,and we need lots of them to
+            make decision, or in another words few million neurons decide that
+            outsiide is raining, go later, in fact this computation is done in
+            brain using neurons which are connected through tiny wires which are
+            called synopsis, Now we will make the same kind of computation unit
+            make our models learn, as of now, it had been proven that it works
+            best in all area of Artificial Intelligence.
+          </p>
+          <figure aria-colspan="2">
+            <img id="subject" src="../assests/images/ai/neuron.jpg" />
+            <img id="subject" src="../assests/images/ai/neurons.jpg" />
+            <figcaption>Neurons and Neural Network</figcaption>
+          </figure>
+        </section>
 
-        <p>
-          Pelientesque auctor nisi id magna consequat sagittis. Curabitur
-          dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet.
-          Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.
-        </p>
-
-        <h3>Deep Learning</h3>
-
-        <p>
-          Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum
-          soclis natoque penatibus et manis dis parturient montes, nascetur
-          ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem
-          facilisis semper ac in est.
-        </p>
-
-        <p>
-          Vivamus fermentum semper porta. Nunc diam velit, adipscing ut
-          tristique vitae sagittis vel odio. Maecenas convallis ullamcorper
-          ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi
-          diam iaculis velit, is fringille sem nunc vet mi.
-        </p>
-        <h3>Reinforcement Learning</h3>
-
-        <p>
-          Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum
-          soclis natoque penatibus et manis dis parturient montes, nascetur
-          ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem
-          facilisis semper ac in est.
-        </p>
-
-        <p>
-          Vivamus fermentum semper porta. Nunc diam velit, adipscing ut
-          tristique vitae sagittis vel odio. Maecenas convallis ullamcorper
-          ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi
-          diam iaculis velit, is fringille sem nunc vet mi.
-        </p>
+        <section>
+          <h3>Reinforcement Learning</h3>
+          <p>
+            it is all about how we learn in the environment by doing some and
+            get rewards, do that work better with more precision, get higher
+            rewards. the Scientists and Engineers try to build robots and make
+            them learn using Reinforcement learning techniques.
+          </p>
+          <figure>
+            <img
+              id="subject"
+              src="../assests/images/ai/reinforcement-learning.jpg"
+            />
+            <figcaption>a robot and the choices to make</figcaption>
+          </figure>
+        </section>
       </article>
 
       <!-- the aside content can also be nested within the main content -->
       <aside>
-        <h2>Related to Intelligence</h2>
+        <h4>Related to Intelligence</h4>
 
         <ul>
           <li>
-            <a href="#"
+            <a href="https://news.mit.edu/2021/machine-learning-adapts-0128"
               ><abbr>MIT</abbr> had released there liquid Neural Networks</a
             >
           </li>
           <li>
-            <a href="#"
-              ><p>Open AI code</p>
-              <pre><code>x+2 for x in w if x%2==0</code></pre>
-            </a>
-          </li>
-          <li><a href="#">Geoffrey Hinton resigns from google</a></li>
-          <li>
-            <a href="#"
-              ><strong>Demis</strong> prediction on human level intelligence</a
+            <a href="https://time.com/6282325/sam-altman-openai-eu/"
+              >Sam Altman,The CEO of openAI had a gone to Europe to discuess
+              about AI</a
             >
           </li>
-          <hr />
           <li>
-            <a href="#">Robots cannot replace humans says sunder pichai</a>
+            <a href="https://twitter.com/ylecun/status/1662392952704888832">
+              Yann LeCun says, there had to be regulation but not based on the
+              hypes.</a
+            >
           </li>
         </ul>
       </aside>
@@ -129,7 +141,7 @@
 
     <hr />
     <footer>
-      <p><strong>©Copyright</strong> 2023 by nobody. All rights reversed.</p>
+      <p>©2023 <em>HoshmandLab</em>. All rights reserved.</p>
     </footer>
   </body>
 </html>
