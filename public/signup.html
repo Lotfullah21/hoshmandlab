@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <a href="../index.html" id="link">HoshmandLab</a>
+    </header>
+    <nav>
+      <ul>
+        <a id="page" href="home.html">Home</a>
+        <a id="page" href="about.html">About</a>
+        <a id="page" href="courses.html">Courses</a>
+        <a id="page" href="contacts.html">Contact</a>
+        <a id="page" href="signup.html">SignUp</a>
+      </ul>
+    </nav>
+    <main>
+      <h2>Sign UP</h2>
+      <form id="register">
+        <label for="fname">Full name</label><br />
+        <input id="signup" type="text" id="user_full_name" required /><br />
+        <label id="mail">Email</label><br />
+        <input
+          id="signup"
+          type="email"
+          id="mail"
+          name="user_email_address"
+          required
+        /><br />
+        <label for="pwd">Password</label><br />
+        <input
+          id="signup"
+          type="password"
+          name="user_password"
+          required
+          minlength="8"
+        /><br />
+        <label for="pwd">Confirm Password</label><br />
+        <input
+          id="signup"
+          type="password"
+          name="user_confirmed_password"
+          required
+          minlength="8"
+        /><br />
+        <label for="phone">Phone Number:</label><br />
+        <input
+          id="signup"
+          type="tel"
+          id="phone"
+          name="phone_number"
+          pattern="[+][0-9][0-9]{11,14}"
+          required
+          minlength="11"
+        /><br />
+        <label for="dob">Data of Birth</label><br />
+        <input
+          id="signup"
+          type="date"
+          id="dob"
+          name="date of birth
+        "
+          required
+        /><br />
+
+        <button id="signup_button" type="submit">Register</button>
+      </form>
+    </main>
+    <hr />
+    <footer>
+      <p>©2023 <em>HoshmandLab</em>. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

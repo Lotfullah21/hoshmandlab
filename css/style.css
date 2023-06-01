@@ -26,11 +26,55 @@ img {
   width: 800px;
 }
 
+button {
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin: 2px;
+  padding: 8px;
+  margin-right: auto;
+  margin-left: auto;
+}
+input:focus:invalid {
+  border: 2px solid red;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 315px;
+  width: 560px;
+}
+
 #subject {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 400px;
+}
+
+#register {
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#signup {
+  padding: 10px;
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+}
+
+#signup_button {
+  background-color: #bcc2c2;
+  border-radius: 5px;
+  padding: 8px;
+  margin-top: 10px;
+}
+
+#goal {
+  text-align: center;
 }
 
 footer {

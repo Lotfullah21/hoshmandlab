@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <a href="../index.html" id="link">HoshmandLab</a>
+    </header>
+    <nav>
+      <ul>
+        <a id="page" href="home.html">Home</a>
+        <a id="page" href="about.html">About</a>
+        <a id="page" href="courses.html">Courses</a>
+        <a id="page" href="contacts.html">Contact</a>
+        <a id="page" href="signup.html">SignUp</a>
+      </ul>
+    </nav>
+    <main>
+      <h2>Register for courses</h2>
+      <form method="post" id="register">
+        <fieldset id="courses">
+          <h3>Artificial Intelligence courses</h3>
+          <label>
+            <input
+              type="radio"
+              name="courses"
+              value="artificil_intelligence"
+            />Artificial Intelligence
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="courses"
+              value="machine_learning"
+            />Machine Learning
+          </label>
+          <label>
+            <input type="radio" name="courses" value="deep_learning" />Deep
+            Learning
+          </label>
+        </fieldset>
+        <fieldset id="language">
+          <h3>Programming Language</h3>
+          <label>
+            <input type="radio" name="language" value="python" />Introduction to
+            python
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="language"
+              value="advanced_python"
+            />Advanced Python
+          </label>
+          <label>
+            <input type="radio" name="language" value="javascript" />JavaScript
+          </label>
+        </fieldset>
+        <label for="course">Choose a course:</label><br />
+        <select id="course" name="courselist">
+          <option value="html">HTML Introduction</option>
+          <option value="css">Styling with CSS</option>
+          <option value="js">JavaScript</option>
+          <option value="react">React Basics</option>
+        </select>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <hr />
+    <footer>
+      <p>©2023 <em>HoshmandLab</em>. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
